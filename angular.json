@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "smileVer0"
+    }
+  },
+  "defaultProject": "smileVer0",
+  "cli": {
+    "analytics": "c37e4ab2-fbe9-4c30-bca8-a9c8842920c5"
+  }
 }
