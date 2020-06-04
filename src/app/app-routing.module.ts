@@ -5,10 +5,11 @@ import { QuestionnairePageComponent } from './page/questionnaire-page/questionna
 
 
 const routes: Routes = [
-  { path: '', component: QuestionnairePageComponent },
-
+  { path: '', redirectTo: '/questionnaire-page', pathMatch: 'full' },
   { path: 'questionnaire-page', component: QuestionnairePageComponent },
-  { path: 'conclude-page', component: ConcludePageComponent },
+  { path: 'conclude-page', component: ConcludePageComponent }
+  // Wildcard route for a 404 page
+  // { path: '**', component: PageNotFoundComponent },
 ];
 
 @NgModule({
